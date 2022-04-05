@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Signup Form</title>
+<link rel="icon" type="image/x-icon" href="/home/saikrishna/Assignment_1/Assignment_1/Favicon.jpeg">
+<link rel="stylesheet" href="SignupPage.css">
+<script src="SignupPage.js"></script>
+</head>
+<body>
+
+<center>
+<div class="card">
+<b> Signup Form </b>
+<hr style="height:3px;background-color:red"/>
+<form name="Signupform" onsubmit="return ValidateForm()">
+ 
+    <label><b>Firstname</b></label><br>
+    <input type="text"  name="fname">
+    <div class="error" id="fnameErr"></div>
+    <hr/>
+
+    <label><b>Lastname</b></label><br>
+    <input type="text"  name="lname">
+    <div class="error" id="lnameErr"></div>
+    <hr/>
+
+    <label><b>Username</b></label><br>
+    <input type="text"  name="uname">
+    <div class="error" id="unameErr"></div>
+    <hr/>
+  
+    <label><b>Password</b></label><br>
+    <input type="password" name="psw" >
+    <div class="error" id="pswdErr"></div>
+    <hr/>
+      
+    <button type="submit">Login</button> 
+    
+</form>   
+</div>
+</center>
+
+</body>
+</html>
+
