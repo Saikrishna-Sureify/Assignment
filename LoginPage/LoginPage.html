@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Login Form</title>
+<link rel="icon" type="image/x-icon" href="/home/saikrishna/Assignment_1/Assignment_1/Favicon.jpeg">
+<link rel="stylesheet" href="LoginPage.css">
+<script src="LoginPage.js"></script>
+</head>
+<body>
+
+<center>
+<div class="card">
+<b> Login Form </b>
+<hr style="height:3px;background-color:red"/>
+<form name="Loginform" onsubmit="return ValidateForm()">
+ 
+    <label><b>Username</b></label><br>
+    <input type="text"  name="uname" id="uname">
+    <div class="error" id="nameErr"></div>
+    <hr/>
+  
+    <label><b>Password</b></label><br>
+    <input type="password" name="psw" >
+    <div class="error" id="pswdErr"></div>
+    <hr/>
+      
+    <button type="submit">Login</button> 
+    <div class="row">
+    <div class="column3"> 
+    <p><a href="/home/saikrishna/Assignment_1/Assignment_1/SignupPage/SignUpPage.html">New User?</a></p>
+    </div>
+    <div class="column4">
+    <p><a href="">Forget Password?</a></p>
+    </div>
+    </div>
+</form>   
+</div>
+</center>
+
+</body>
+</html>
+
